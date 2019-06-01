@@ -13,7 +13,7 @@ workbox.routing.registerRoute(
 
 self.addEventListener('push', event => {
   event.waitUntil(self.registration.showNotification('Todo List', {
-    icon: '/favicon.ico',
+    icon: '/apple-touch-icon-120x120.png',
     body: event.data.text()
   }))
 })
